@@ -1,7 +1,14 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="Bio Page" icon="" />
     <ScrollView>
-        <StackLayout>
+        <StackLayout class="page-content">
+            <Image src="~/images/dog.jfif" class="picture" stretch="aspectFill" />
+            <Label text="Phil Hail" class="me section-header" />
+            <Label text="I am a double major electronics engineering and computer science student graduating this May. I've always had a need to create things and by necessity starting learning programming in order to bring my projects to life." class="me" textWrap="true" />
+            <Label text="Interests and Hobbies" class="interests section-header" />
+            <Label text="Cooking" class="interests" textWrap="true" />
+            <Label text="Programming" class="interests" textWrap="true" />
+            <Label text="Cars" class="interests" textWrap="true" />
             <Button text="Go Back" tap="navBack" className="button-primary" />
         </StackLayout>
     </ScrollView>
