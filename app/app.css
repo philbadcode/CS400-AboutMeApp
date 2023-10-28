@@ -1,0 +1,29 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  --text: #fdefed;
+  --background: #000000;
+  --primary: #c12e1a;
+  --secondary: #431009;
+  --accent: #e34935;
+*/
+
+Page {
+  color: #fdefed;
+  background: #000000;
+}
+
+.button-primary {
+  color: #fdefed;
+  background: #c12e1a;
+  text-align: center;
+  font-size: 20;
+  margin: 10;
+  padding: 15;
+  border-radius: 5;
+}

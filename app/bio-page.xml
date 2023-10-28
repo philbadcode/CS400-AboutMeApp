@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Bio Page" icon="" />
+    <ScrollView>
+        <StackLayout>
+            <Button text="Go Back" tap="navBack" className="button-primary" />
+        </StackLayout>
+    </ScrollView>
+</Page>

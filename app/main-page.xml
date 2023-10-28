@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="About Me App" class="action-bar" />
+    <ScrollView>
+        <StackLayout>
+            <GridLayout rows="*, *, *">
+                <Button text="Bio Page" onTap="navBio" row="0" className="button-primary" />
+                <Button text="Contact Form" onTap="navContact" row="1" className="button-primary" />
+                <Button text="Skills Page" onTap="navSkills" row="2" className="button-primary" />
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</Page>
