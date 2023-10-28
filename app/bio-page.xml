@@ -3,7 +3,7 @@
     <ScrollView>
         <StackLayout class="page-content">
             <Image src="~/images/dog.jfif" class="picture" stretch="aspectFill" />
-            <Label text="Phil Hail" class="name section-header" />
+            <Label text="Phil Hail" class="section-header" />
             <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." class="bio" textWrap="true" />
             <Label text="Interests and Hobbies" class="section-header" />
             <Label text="Cooking" class="interest" textWrap="true" />

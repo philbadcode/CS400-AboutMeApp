@@ -12,21 +12,15 @@
   margin-bottom: 10;
 }
 
-.name {
-  font-size: 26pt;
+.section-header {
+  font-size: 24pt;
   font-weight: bold;
+  margin-top: 20;
   margin-bottom: 10;
 }
 
 .bio {
   font-size: 18pt;
-  margin-bottom: 20;
-}
-
-.section-header {
-  font-size: 24pt;
-  font-weight: bold;
-  margin-top: 20;
 }
 
 .interest {
