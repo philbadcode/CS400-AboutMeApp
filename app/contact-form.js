@@ -14,17 +14,10 @@ export function navBack(args) {
 export function onSubmit(args) {
   try {
     const page = args.object;
-    const nameTextField = page.getViewById("name");
-    const emailTextField = page.getViewById("email");
-    const messageTextField = page.getViewById("message");
 
-    console.info(nameTextField);
-    console.info(emailTextField);
-    console.info(messageTextField);
-
-    const name = nameTextField.text;
-    const email = emailTextField.text;
-    const message = messageTextField.text;
+    let nameTextField = page.getViewById("name").text;
+    let emailTextField = page.getViewById("email").text;
+    let messageTextField = page.getViewById("message").text;
 
     if (name && email && message) {
       alert("Submission successful");
