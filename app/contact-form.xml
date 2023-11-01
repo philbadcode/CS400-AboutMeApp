@@ -3,13 +3,13 @@
     <ScrollView>
         <StackLayout>
             <Label text="Name" class="text-white font-bold mb-1 ml-4" />
-            <TextField hint="Enter your name" id="name" class="bg-white text-black mb-4 p-2 rounded" />
+            <TextField hint="Enter your name" id="name" class="bg-white text-black mb-4 p-2 rounded" color="black" />
 
             <Label text="Email" class="text-white font-bold mb-1 ml-4" />
-            <TextField hint="Enter your email" id="email" keyboardType="email" class="bg-white text-black mb-4 p-2 rounded" />
+            <TextField hint="Enter your email" id="email" keyboardType="email" class="bg-white text-black mb-4 p-2 rounded" color="black" />
 
             <Label text="Contact Message" class="text-white font-bold mb-1 ml-4" />
-            <TextView hint="Enter your message" id="message" class="bg-white text-black mb-4 p-2 rounded" />
+            <TextView hint="Enter your message" id="message" class="bg-white text-black mb-4 p-2 rounded" color="black" />
 
             <Button text="Submit" tap="onSubmit" class="button-primary mb-2 rounded text-xl" style="background-color: #FF5722; color: #FFFFFF;" />
         </StackLayout>
