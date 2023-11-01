@@ -2,8 +2,8 @@
     <ActionBar title="About Me App" class="action-bar" />
     <ScrollView class="p-4">
         <StackLayout class="space-y-4">
-            <Button text="Bio Page" onTap="navBio" class="button-primary" style="background-color: #FF5722; color: #FFFFFF;" />
-            <Button text="Contact Form" onTap="navContact" class="button-primary" style="background-color: #FF5722; color: #FFFFFF;" />
+            <Button text="Bio Page" onTap="navBio" class="button-primary mb-2" style="background-color: #FF5722; color: #FFFFFF;" />
+            <Button text="Contact Form" onTap="navContact" class="button-primary mb-2" style="background-color: #FF5722; color: #FFFFFF;" />
             <Button text="Skills Page" onTap="navSkills" class="button-primary" style="background-color: #FF5722; color: #FFFFFF;" />
         </StackLayout>
     </ScrollView>
