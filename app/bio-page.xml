@@ -1,15 +1,15 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="Bio Page" icon="" />
     <ScrollView>
-        <StackLayout class="page-content">
-            <Image src="~/images/me.jpg" class="picture" stretch="aspectFill" />
-            <Label text="Phil Hail" class="section-header" />
-            <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." class="bio" textWrap="true" />
-            <Label text="Interests and Hobbies" class="section-header" />
-            <Label text="Cooking" class="interest" textWrap="true" />
-            <Label text="Programming" class="interest" textWrap="true" />
-            <Label text="Cars" class="interest" textWrap="true" />
-            <Button text="Go Back" tap="navBack" className="button-primary" />
+        <StackLayout>
+            <Image src="~/images/me.jpg" stretch="aspectFill" />
+            <Label text="Phil Hail" />
+            <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." textWrap="true" />
+            <Label text="Interests and Hobbies" />
+            <Label text="Cooking" textWrap="true" />
+            <Label text="Programming" textWrap="true" />
+            <Label text="Cars" textWrap="true" />
+            <Button text="Go Back" tap="navBack" />
         </StackLayout>
     </ScrollView>
 </Page>

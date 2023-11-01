@@ -1,7 +1,5 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" xmlns:tailwind="nativescript-tailwind" class="bg-black text-white">
-    <ActionBar title="About Me App" class="action-bar bg-blue-500">
-        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onBackPressed" ios.systemIcon="12" class="text-white" />
-    </ActionBar>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="About Me App" class="action-bar" />
     <ScrollView class="p-4">
         <StackLayout class="space-y-4">
             <Button text="Bio Page" onTap="navBio" class="button-primary" />
