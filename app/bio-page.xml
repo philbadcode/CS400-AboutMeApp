@@ -1,19 +1,18 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-gray-100">
-    <ActionBar title="Bio Page" icon="" />
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-black text-white text-lg">
+    <ActionBar title="Bio Page" icon="" class="text-white" />
     <ScrollView>
-        <StackLayout class="bg-white p-4 shadow-md rounded-lg">
-            <Image src="~/images/me.jpg" stretch="aspectFill" class="mb-4 mx-auto w-32 h-32 rounded-full" />
+        <StackLayout class="bg-gray-900 p-4 shadow-md rounded-lg">
+            <Image src="~/images/me.jpg" stretch="aspectFill" class="mb-4 mx-auto w-48 h-48 rounded-lg border-2 border-red-500" />
             <StackLayout class="mb-4">
                 <Label text="Phil Hail" class="text-xl font-bold mb-2" />
-                <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." textWrap="true" class="text-gray-700" />
+                <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." textWrap="true" class="text-gray-300" />
             </StackLayout>
             <Label text="Interests and Hobbies" class="text-xl font-bold mb-2" />
             <StackLayout class="ml-4">
-                <Label text="Cooking" textWrap="true" class="text-gray-700 mb-2" />
-                <Label text="Programming" textWrap="true" class="text-gray-700 mb-2" />
-                <Label text="Cars" textWrap="true" class="text-gray-700 mb-2" />
+                <Label text="Cooking" textWrap="true" class="text-gray-300 mb-2" />
+                <Label text="Programming" textWrap="true" class="text-gray-300 mb-2" />
+                <Label text="Cars" textWrap="true" class="text-gray-300 mb-2" />
             </StackLayout>
-            <Button text="Go Back" tap="navBack" class="bg-blue-500 text-white p-2 rounded-md mt-4" />
         </StackLayout>
     </ScrollView>
 </Page>
