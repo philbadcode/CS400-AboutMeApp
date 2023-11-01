@@ -2,18 +2,18 @@
     <ActionBar title="Contact Form" icon="" class="text-white" />
     <ScrollView>
         <StackLayout>
-            <Label text="Name" class="text-white font-bold mb-1" />
+            <Label text="Name" class="text-white font-bold mb-1 ml-4" />
             <TextField hint="Enter your name" id="name" class="bg-white text-black mb-4 p-2 rounded" />
 
-            <Label text="Email" class="text-white font-bold mb-1" />
+            <Label text="Email" class="text-white font-bold mb-1 ml-4" />
             <TextField hint="Enter your email" id="email" keyboardType="email" class="bg-white text-black mb-4 p-2 rounded" />
 
-            <Label text="Contact Message" class="text-white font-bold mb-1" />
+            <Label text="Contact Message" class="text-white font-bold mb-1 ml-4" />
             <TextView hint="Enter your message" id="message" class="bg-white text-black mb-4 p-2 rounded" />
 
-            <Button text="Submit" tap="onSubmit" class="bg-orange-500 text-white p-2 rounded mb-4" />
+            <Button text="Submit" tap="onSubmit" class="text-white bg-orange-500 rounded" />
 
-            <Image src="res://your_image_file_name" stretch="aspectFit" height="200" class="mb-4" />
+            <Image src="res://your_image_file_name" stretch="aspectFit" height="200" class="mt-4" />
         </StackLayout>
     </ScrollView>
 </Page>
