@@ -2,9 +2,9 @@
     <ActionBar title="About Me App" class="action-bar" />
     <ScrollView class="p-4">
         <StackLayout class="space-y-4">
-            <Button text="Bio Page" onTap="navBio" class="button-primary" />
-            <Button text="Contact Form" onTap="navContact" class="button-primary" />
-            <Button text="Skills Page" onTap="navSkills" class="button-primary" />
+            <Button text="Bio Page" onTap="navBio" class="bg-orange-700 text-white p-2 rounded" />
+            <Button text="Contact Form" onTap="navContact" class="bg-orange-700 text-white p-2 rounded" />
+            <Button text="Skills Page" onTap="navSkills" class="bg-orange-700 text-white p-2 rounded" />
         </StackLayout>
     </ScrollView>
 </Page>
