@@ -2,13 +2,13 @@
     <ActionBar title="Contact Form" icon="" class="text-white" />
     <ScrollView>
         <StackLayout>
-            <Label text="Name" class="text-white" />
+            <Label text="Name" class="text-white font-bold mb-1" />
             <TextField hint="Enter your name" id="name" class="bg-white text-black mb-4 p-2 rounded" />
 
-            <Label text="Email" class="text-white" />
+            <Label text="Email" class="text-white font-bold mb-1" />
             <TextField hint="Enter your email" id="email" keyboardType="email" class="bg-white text-black mb-4 p-2 rounded" />
 
-            <Label text="Contact Message" class="text-white" />
+            <Label text="Contact Message" class="text-white font-bold mb-1" />
             <TextView hint="Enter your message" id="message" class="bg-white text-black mb-4 p-2 rounded" />
 
             <Button text="Submit" tap="onSubmit" class="bg-orange-500 text-white p-2 rounded mb-4" />
