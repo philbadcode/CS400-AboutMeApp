@@ -12,18 +12,22 @@ export function navBack(args) {
 }
 
 export function onSubmit(args) {
-  const page = args.object;
-  const nameTextField = page.getViewById("name");
-  const emailTextField = page.getViewById("email");
-  const messageTextField = page.getViewById("message");
+  try {
+    const page = args.object;
+    const nameTextField = page.getViewById("name");
+    const emailTextField = page.getViewById("email");
+    const messageTextField = page.getViewById("message");
 
-  const name = nameTextField.text;
-  const email = emailTextField.text;
-  const message = messageTextField.text;
+    const name = nameTextField.text;
+    const email = emailTextField.text;
+    const message = messageTextField.text;
 
-  if (name && email && message) {
-    alert("Submission successful");
-  } else {
-    alert("Please fill out all fields");
+    if (name && email && message) {
+      alert("Submission successful");
+    } else {
+      alert("Please fill out all fields");
+    }
+  } catch (e) {
+    console.error(e);
   }
 }
