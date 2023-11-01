@@ -1,24 +1,21 @@
 import { createViewModel } from './main-view-model';
 
 export function onNavigatingTo(args) {
-  const page = args.object;
+  const page = args.object.page;
   page.bindingContext = createViewModel();
 }
 
 export function navBio(args) {
-  const object = args.object;
-  const page = object.page;
+  const page = args.object.page;
   page.frame.navigate('bio-page');
 }
 
 export function navContact(args) {
-  const object = args.object;
-  const page = object.page;
+  const page = args.object.page;
   page.frame.navigate('contact-form');
 }
 
 export function navSkills(args) {
-  const object = args.object;
-  const page = object.page;
+  const page = args.object.page;
   page.frame.navigate('skills-page');
 }

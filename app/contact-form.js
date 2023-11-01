@@ -1,30 +1,25 @@
 import { createViewModel } from './main-view-model';
 
 export function onNavigatingTo(args) {
-  const page = args.object;
+  const page = args.object.page;
   page.bindingContext = createViewModel();
 }
 
 export function navBack(args) {
-  const object = args.object;
-  const page = object.page;
+  const page = args.object.page;
   page.frame.goBack();
 }
 
 export function onSubmit(args) {
-  try {
-    const page = args.object;
+  const page = args.object.page;
 
-    let nameTextField = page.getViewById("name").text;
-    let emailTextField = page.getViewById("email").text;
-    let messageTextField = page.getViewById("message").text;
+  let name = page.getViewById("name").text;
+  let email = page.getViewById("email").text;
+  let message = page.getViewById("message").text;
 
-    if (name && email && message) {
-      alert("Submission successful");
-    } else {
-      alert("Please fill out all fields");
-    }
-  } catch (e) {
-    console.error(e);
+  if (name && email && message) {
+    alert("Submission successful");
+  } else {
+    alert("Please fill out all fields");
   }
 }
