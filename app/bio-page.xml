@@ -1,17 +1,17 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-black text-white text-lg">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-gray-900 text-white text-lg">
     <ActionBar title="Bio Page" icon="" class="text-white" />
     <ScrollView>
-        <StackLayout class="bg-gray-900 p-4 shadow-md rounded-lg">
-            <Image src="~/images/me.jpg" stretch="aspectFill" class="mb-4 mx-auto w-48 h-48 rounded-lg border-2 border-red-500" />
-            <StackLayout class="mb-4">
-                <Label text="Phil Hail" class="text-xl font-bold mb-2" />
+        <StackLayout class="bg-gray-800 p-4 rounded-lg border-2 border-gray-700">
+            <Image src="~/images/me.jpg" stretch="aspectFill" class="mb-4 mx-auto w-56 h-56 rounded-lg" />
+            <StackLayout class="mb-2">
+                <Label text="Phil Hail" class="text-2xl font-bold mb-1" />
                 <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." textWrap="true" class="text-gray-300" />
             </StackLayout>
-            <Label text="Interests and Hobbies" class="text-xl font-bold mb-2" />
+            <Label text="Interests and Hobbies" class="text-2xl font-bold mb-2" />
             <StackLayout class="ml-4">
-                <Label text="Cooking" textWrap="true" class="text-gray-300 mb-2" />
-                <Label text="Programming" textWrap="true" class="text-gray-300 mb-2" />
-                <Label text="Cars" textWrap="true" class="text-gray-300 mb-2" />
+                <Label text="Cooking" textWrap="true" class="text-gray-300 mb-1" />
+                <Label text="Programming" textWrap="true" class="text-gray-300 mb-1" />
+                <Label text="Cars" textWrap="true" class="text-gray-300 mb-1" />
             </StackLayout>
         </StackLayout>
     </ScrollView>
