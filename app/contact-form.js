@@ -28,6 +28,9 @@ export function onSubmit(args) {
       alert("Please fill out all fields");
     }
   } catch (e) {
+    console.error(nameTextField);
+    console.error(emailTextField);
+    console.error(messageTextField);
     console.error(e);
   }
 }
