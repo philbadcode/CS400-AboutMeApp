@@ -3,7 +3,7 @@
     <ScrollView>
         <StackLayout>
 
-            <Image src="~/images/envelope.jpg" width="24" height="24" class="m-2" />
+            <Image src="~/images/envelope.png" stretch="aspectFill" class="mb-4 mx-auto w-48 h-48" />
 
             <Label text="Name" class="text-white font-bold mb-1 ml-4" />
             <TextField hint="Enter your name" id="name" class="bg-white text-black mb-4 p-2 rounded" color="black" />
