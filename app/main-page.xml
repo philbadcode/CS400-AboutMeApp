@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" xmlns:tailwind="nativescript-tailwind" class="tailwind">
     <ActionBar title="About Me App" class="action-bar" />
     <ScrollView>
         <StackLayout>
