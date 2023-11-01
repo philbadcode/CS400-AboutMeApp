@@ -10,3 +10,14 @@ export function navBack(args) {
   const page = object.page;
   page.frame.goBack();
 }
+
+export function onSubmit(args) {
+  const page = args.object;
+  const nameTextField = page.getViewById("name");
+  const emailTextField = page.getViewById("email");
+  const messageTextField = page.getViewById("message");
+
+  const name = nameTextField.text;
+  const email = emailTextField.text;
+  const message = messageTextField.text;
+}
