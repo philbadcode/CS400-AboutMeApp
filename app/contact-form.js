@@ -18,7 +18,10 @@ export function onSubmit(args) {
   let message = page.getViewById("message").text;
 
   if (name && email && message) {
-    alert("Submission successful");
+    alert("Submission successful!");
+    page.getViewById("name").text = "";
+    page.getViewById("email").text = "";
+    page.getViewById("message").text = "";
   } else {
     alert("Please fill out all fields");
   }
