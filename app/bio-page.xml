@@ -1,9 +1,9 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-black-900 text-white">
     <ActionBar title="Bio Page" icon="" class="text-white" />
     <ScrollView>
-        <StackLayout class="p-4 rounded-lg">
+        <StackLayout class="p-2 rounded-lg">
             <Image src="~/images/me.jpg" stretch="aspectFill" class="mb-4 mx-auto w-48 h-48 rounded border-2 border-gray-800" />
-            <StackLayout class="mb-4">
+            <StackLayout class="mb-4 m-2">
                 <Label text="Phil Hail" class="text-xl font-bold mb-2" />
                 <Label text="I am a double major in electronics engineering and computer science, set to graduate this May. I've always had a need to create things and, out of necessity, started learning programming to bring my projects to life." textWrap="true" class="text-gray-300" />
             </StackLayout>
