@@ -20,4 +20,10 @@ export function onSubmit(args) {
   const name = nameTextField.text;
   const email = emailTextField.text;
   const message = messageTextField.text;
+
+  if (name && email && message) {
+    alert("Submission successful");
+  } else {
+    alert("Please fill out all fields");
+  }
 }

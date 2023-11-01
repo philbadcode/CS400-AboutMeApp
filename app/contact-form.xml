@@ -12,8 +12,6 @@
             <TextView hint="Enter your message" id="message" class="bg-white text-black mb-4 p-2 rounded" />
 
             <Button text="Submit" tap="onSubmit" class="button-primary mb-2 rounded text-xl" style="background-color: #FF5722; color: #FFFFFF;" />
-
-            <Image src="res://your_image_file_name" stretch="aspectFit" height="200" class="mt-4" />
         </StackLayout>
     </ScrollView>
 </Page>
