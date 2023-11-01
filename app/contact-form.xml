@@ -1,21 +1,23 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-    <ActionBar title="Contact Form" icon="" />
-    <ScrollView class="p-4">
+    <ActionBar title="Contact Form" icon="" class="bg-white text-black" />
+    <ScrollView class="p-4 bg-black">
         <StackLayout class="mb-4">
-            <Label text="Name" class="text-lg mb-1" />
-            <TextField hint="Enter your name" class="border rounded p-2" id="name" />
+            <Label text="Name" class="text-white text-lg mb-1" />
+            <TextField hint="Enter your name" class="border rounded p-2 text-white" id="name" />
         </StackLayout>
 
         <StackLayout class="mb-4">
-            <Label text="Email" class="text-lg mb-1" />
-            <TextField hint="Enter your email" class="border rounded p-2" id="email" keyboardType="email" />
+            <Label text="Email" class="text-white text-lg mb-1" />
+            <TextField hint="Enter your email" class="border rounded p-2 text-white" id="email" keyboardType="email" />
         </StackLayout>
 
         <StackLayout class="mb-4">
-            <Label text="Contact Message" class="text-lg mb-1" />
-            <TextView hint="Enter your message" class="border rounded p-2" id="message" />
+            <Label text="Contact Message" class="text-white text-lg mb-1" />
+            <TextView hint="Enter your message" class="border rounded p-2 text-white" id="message" />
         </StackLayout>
 
         <Button text="Submit" tap="onSubmit" class="bg-blue-500 text-white py-2 px-4 rounded" />
+
+        <Image src="res://your_image_file_name" stretch="aspectFit" height="200" />
     </ScrollView>
 </Page>
