@@ -18,6 +18,10 @@ export function onSubmit(args) {
     const emailTextField = page.getViewById("email");
     const messageTextField = page.getViewById("message");
 
+    console.info(nameTextField);
+    console.info(emailTextField);
+    console.info(messageTextField);
+
     const name = nameTextField.text;
     const email = emailTextField.text;
     const message = messageTextField.text;
@@ -28,9 +32,6 @@ export function onSubmit(args) {
       alert("Please fill out all fields");
     }
   } catch (e) {
-    console.error(nameTextField);
-    console.error(emailTextField);
-    console.error(messageTextField);
     console.error(e);
   }
 }
