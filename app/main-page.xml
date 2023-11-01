@@ -1,7 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="About Me App" class="action-bar" />
-    <ScrollView class="p-4">
-        <StackLayout class="space-y-4">
+    <ScrollView class="m-4">
+        <StackLayout>
             <Button text="Bio Page" onTap="navBio" class="button-primary mb-4 rounded text-xl" style="background-color: #FF5722; color: #FFFFFF;" />
             <Button text="Contact Form" onTap="navContact" class="button-primary mb-4 rounded text-xl" style="background-color: #FF5722; color: #FFFFFF;" />
             <Button text="Skills Page" onTap="navSkills" class="button-primary mb-4 rounded text-xl" style="background-color: #FF5722; color: #FFFFFF;" />
