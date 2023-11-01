@@ -1,12 +1,12 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" xmlns:tailwind="nativescript-tailwind" class="tailwind">
-    <ActionBar title="About Me App" class="action-bar" />
-    <ScrollView>
-        <StackLayout>
-            <GridLayout rows="*, *, *">
-                <Button text="Bio Page" onTap="navBio" row="0" className="button-primary" />
-                <Button text="Contact Form" onTap="navContact" row="1" className="button-primary" />
-                <Button text="Skills Page" onTap="navSkills" row="2" className="button-primary" />
-            </GridLayout>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" xmlns:tailwind="nativescript-tailwind" class="bg-black text-white">
+    <ActionBar title="About Me App" class="action-bar bg-blue-500">
+        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onBackPressed" ios.systemIcon="12" class="text-white" />
+    </ActionBar>
+    <ScrollView class="p-4">
+        <StackLayout class="space-y-4">
+            <Button text="Bio Page" onTap="navBio" class="button-primary" />
+            <Button text="Contact Form" onTap="navContact" class="button-primary" />
+            <Button text="Skills Page" onTap="navSkills" class="button-primary" />
         </StackLayout>
     </ScrollView>
 </Page>
