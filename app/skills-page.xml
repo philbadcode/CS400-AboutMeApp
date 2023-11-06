@@ -2,6 +2,11 @@
     <ActionBar title="Skills Page" icon="" />
     <ScrollView>
         <StackLayout>
+            <ListView id="myListView" itemTap="onItemTap">
+                <ListView.itemTemplate>
+                    <Label id="listItemLabel" />
+                </ListView.itemTemplate>
+            </ListView>
             <Button text="Go Back" tap="navBack" className="button-primary" />
         </StackLayout>
     </ScrollView>
