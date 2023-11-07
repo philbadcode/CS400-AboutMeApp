@@ -19,7 +19,7 @@ export function onPageLoaded(args) {
     { name: 'PLC Programming' },
     { name: 'PCB Design' },
     { name: 'Database Design' },
-    { name: '3d Modeling' },
+    { name: '3D Modeling' },
     { name: 'HMI Design' },
   ]);
   listView.items = itemList;
