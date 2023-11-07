@@ -1,10 +1,10 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-black-900 text-white" >
     <ActionBar title="Skills Page" icon="" />
     <ScrollView>
         <StackLayout>
             <ListView id="myListView" itemTap="onItemTap" class="text-white font-bold" >
                 <ListView.itemTemplate>
-                    <Label id="listItemLabel" />
+                    <Label id="listItemLabel" class="text-white font-bold" text="{{ name }}"/>
                 </ListView.itemTemplate>
             </ListView>
         </StackLayout>
