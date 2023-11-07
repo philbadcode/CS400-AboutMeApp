@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-black-900 text-white" >
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="p-4 bg-red-900 text-white" >
     <ActionBar title="Skills Page" icon="" />
     <ScrollView>
         <StackLayout>
