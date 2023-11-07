@@ -12,7 +12,7 @@ export function navBack(args) {
   page.frame.goBack();
 }
 
-exports.pageLoaded = function(args) {
+export function onPageLoaded(args) {
   const page = args.object.page;
   const listView = page.getViewById("myListView");
   const itemList = new ObservableArray([

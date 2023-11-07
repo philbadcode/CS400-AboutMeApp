@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="bg-black-900 text-white p-4">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="bg-black-900 text-white p-4" >
     <ActionBar title="Contact Form" icon="" class="text-white" />
     <ScrollView>
         <StackLayout>
