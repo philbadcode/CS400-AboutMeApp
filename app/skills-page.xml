@@ -1,9 +1,9 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onPageLoaded" navigatingTo="onNavigatingTo" class="bg-black-900 text-white p-4" >
     <ActionBar title="Skills Page" icon="" />
-    <Label text="Skills" />
+    <Label text="Skills" class="font-bold text-xl" />
     <ListView id="myListView" itemTap="onItemTap" >
         <ListView.itemTemplate>
-            <Label text="{{ name }}" />
+            <Label text="{{ name }}" class="m-2 text-large" />
         </ListView.itemTemplate>
     </ListView>
 </Page>
