@@ -1,4 +1,6 @@
 import { createViewModel } from './main-view-model';
+const ObservableArray = require("@nativescript/core/data/observable-array").ObservableArray;
+const listViewModule = require("@nativescript/core/ui/list-view");
 
 export function onNavigatingTo(args) {
   const page = args.object.page;
@@ -10,10 +12,8 @@ export function navBack(args) {
   page.frame.goBack();
 }
 
-const ObservableArray = require("@nativescript/core/data/observable-array").ObservableArray;
-const listViewModule = require("@nativescript/core/ui/list-view");
 exports.pageLoaded = function(args) {
-  const page = args.object;
+  const page = args.object.page;
   const listView = page.getViewById("myListView");
   const itemList = new ObservableArray([
     { name: 'PLC Programming' },
